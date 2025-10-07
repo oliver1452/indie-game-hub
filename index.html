@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indie Games on Steam</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Discover Indie Games on Steam</h1>
+        <input type="text" id="searchInput" placeholder="Search by game name...">
+    </header>
+    <div id="gameList"></div>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="gameTitle"></h2>
+            <img id="gameImage" src="" alt="Game Header">
+            <p id="gameDescription"></p>
+            <p id="gameGenres"></p>
+            <p id="gameDevelopers"></p>
+            <p id="gamePrice"></p>
+            <p id="gameReviews"></p>
+            <div id="gameScreenshots"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
